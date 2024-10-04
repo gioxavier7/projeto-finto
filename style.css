@@ -16,25 +16,36 @@ body {
 }
 
 header {
-    height: 200px;
+    height: 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     background-color: #173400;
+    padding: 0 80px;
 }
 
 .logo img {
     width: 140px;
 }
 
-nav ul {
-    display: flex;
-    gap: 32px;
-    font-size: 16px;
-    list-style: none;
+nav {
+    margin-left: 20px; /* Ajusta o espaçamento do menu em relação à logo */
+    flex-grow: 1; /* Faz o nav ocupar o espaço restante */
 }
 
-nav a {
+nav ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 16px;
@@ -53,7 +64,7 @@ button {
     border-radius: 29px;
 }
 
-.sign-in {
+.sign-in-btn {
     width: 98px;
     height: 40px;
     background-color: transparent;
@@ -61,7 +72,7 @@ button {
     border: 1px solid #fff;
 }
 
-.open-account {
+.open-account-btn {
     width: 190px;
     height: 40px;
     background-color: #9FE970;
