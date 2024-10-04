@@ -12,7 +12,9 @@ body {
     padding-inline: 80px;
     font-family: Arial, sans-serif;
     color: white;
-    background-color: #173400;
+    background-image: url('./img/fundo-tela.png');
+    background-repeat: repeat; 
+    background-size: cover; 
 }
 
 header {
