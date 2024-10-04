@@ -18,10 +18,15 @@ body {
 header {
     height: 80px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between; /* Distribui o conteúdo logo, navegação e botões */
     align-items: center;
     background-color: #173400;
     padding: 0 80px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
 }
 
 .logo img {
@@ -53,7 +58,8 @@ nav ul li a {
 
 .buttons {
     display: flex;
-    gap: 15px; /* Adicionado espaçamento entre os botões */
+    gap: 15px; /* Espaçamento entre os botões */
+    margin-left: auto; /* Mantém os botões à direita */
 }
 
 button {
@@ -77,4 +83,89 @@ button {
     height: 40px;
     background-color: #9FE970;
     color: #000;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Ajuste para alinhar verticalmente a imagem e o texto */
+    padding: 60px;
+    margin-top: 30px; /* Espaço entre o header e o main */
+}
+
+.conteudo {
+    max-width: 50%;
+}
+
+.conteudo-text {
+    max-width: 60%;
+    margin-left: 60px;
+}
+
+.conteudo h1 {
+    font-size: 66px;
+    margin-bottom: 20px;
+}
+
+.conteudo p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons-main {
+    display: flex;
+    gap: 15px;
+    margin-top: 90px;
+}
+
+.open-account-conteudo {
+    background-color: #9FE970;
+    color: #000;
+}
+
+.contact {
+    background-color: white;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.conteudo-img {
+    position: relative; /* O contêiner serve como referência para a posição da div de fundo */
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundo-img{
+    position: absolute; /* Posição absoluta em relação ao contêiner */
+    bottom: 55px;
+    right: 100px;
+    width: 90%; /* Ocupa toda a largura do contêiner */
+    height: 90%; /* Ocupa toda a altura do contêiner */
+    background-color: rgba(34, 62, 15, 1); /* Cor e opacidade da div de fundo */
+    border: 1px solid #385422; /* Cor da borda */
+    z-index: 1; /* Certifique-se de que a div de fundo esteja atrás */
+
+}
+
+.conteudo-img img {
+    position: relative;
+    z-index: 2; /* A imagem principal fica acima da div de fundo */
+    max-width: 100%;
+    height: auto;
+    margin-right: 65px;
+}
+
+span {
+    width: 138px;
+    height: 40px;
+    font-size: 16px;
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #2A4314;
+    color: #fff;
+    border-radius: 29px;
+    margin-bottom: 15px;
 }
