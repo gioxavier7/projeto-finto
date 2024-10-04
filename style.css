@@ -12,7 +12,7 @@ body {
     padding-inline: 80px;
     font-family: Arial, sans-serif;
     color: white;
-    background-image: url('./img/fundo-tela.png');
+    background-image: url('./img/fundo-tela.png'); /* Substitua pelo caminho da sua imagem */
     background-repeat: repeat; 
     background-size: cover; 
 }
@@ -170,4 +170,29 @@ span {
     color: #fff;
     border-radius: 29px;
     margin-bottom: 15px;
+}
+
+footer {
+    padding: 50px 80px; /* Ajuste no padding lateral */
+    background-color: #173400;
+    display: flex;
+    justify-content: space-between; /* Espaço entre o texto e as redes sociais */
+    align-items: center; /* Alinha o texto e os ícones verticalmente */
+}
+
+.social {
+    margin-left: 50px;
+    display: flex;
+    gap: 100px; /* Espaçamento entre os logos das empresas */
+}
+
+.texto {
+    max-width: 15%;
+    font-size: 16px;
+    color: #fff;
+}
+
+.social img {
+    width: 200px; /* Redimensiona os logos */
+    height: auto;
 }
