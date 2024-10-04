@@ -113,6 +113,7 @@ main {
 .conteudo p {
     font-size: 20px;
     margin-bottom: 20px;
+    color: #C9CEC8;
 }
 
 .buttons-main {
@@ -189,7 +190,7 @@ footer {
 .texto {
     max-width: 15%;
     font-size: 16px;
-    color: #fff;
+    color: #C9CEC8;
 }
 
 .social img {
