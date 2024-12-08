@@ -12,7 +12,7 @@ body {
     padding-inline: 80px;
     font-family: Arial, sans-serif;
     color: white;
-    background-image: url('./img/fundo-tela.png'); /* Substitua pelo caminho da sua imagem */
+    background-image: url('./img/fundo-tela.png');
     background-repeat: repeat; 
     background-size: cover; 
 }
@@ -20,7 +20,7 @@ body {
 header {
     height: 80px;
     display: flex;
-    justify-content: space-between; /* Distribui o conteúdo logo, navegação e botões */
+    justify-content: space-between;
     align-items: center;
     background-color: #173400;
     padding: 0 80px;
@@ -36,8 +36,8 @@ header {
 }
 
 nav {
-    margin-left: 20px; /* Ajusta o espaçamento do menu em relação à logo */
-    flex-grow: 1; /* Faz o nav ocupar o espaço restante */
+    margin-left: 20px;
+    flex-grow: 1;
 }
 
 nav ul {
@@ -60,8 +60,8 @@ nav ul li a {
 
 .buttons {
     display: flex;
-    gap: 15px; /* Espaçamento entre os botões */
-    margin-left: auto; /* Mantém os botões à direita */
+    gap: 15px;
+    margin-left: auto;
 }
 
 button {
@@ -91,9 +91,9 @@ main {
     flex-grow: 1;
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Ajuste para alinhar verticalmente a imagem e o texto */
+    align-items: center; 
     padding: 60px;
-    margin-top: 30px; /* Espaço entre o header e o main */
+    margin-top: 30px; 
 }
 
 .conteudo {
@@ -134,7 +134,7 @@ main {
 }
 
 .conteudo-img {
-    position: relative; /* O contêiner serve como referência para a posição da div de fundo */
+    position: relative; 
     max-width: 40%;
     display: flex;
     justify-content: center;
@@ -142,20 +142,20 @@ main {
 }
 
 .fundo-img{
-    position: absolute; /* Posição absoluta em relação ao contêiner */
+    position: absolute;
     bottom: 55px;
     right: 100px;
-    width: 90%; /* Ocupa toda a largura do contêiner */
-    height: 90%; /* Ocupa toda a altura do contêiner */
-    background-color: rgba(34, 62, 15, 1); /* Cor e opacidade da div de fundo */
-    border: 1px solid #385422; /* Cor da borda */
-    z-index: 1; /* Certifique-se de que a div de fundo esteja atrás */
+    width: 90%;
+    height: 90%; 
+    background-color: rgba(34, 62, 15, 1); 
+    border: 1px solid #385422; 
+    z-index: 1;
 
 }
 
 .conteudo-img img {
     position: relative;
-    z-index: 2; /* A imagem principal fica acima da div de fundo */
+    z-index: 2;
     max-width: 100%;
     height: auto;
     margin-right: 65px;
@@ -174,17 +174,17 @@ span {
 }
 
 footer {
-    padding: 50px 80px; /* Ajuste no padding lateral */
+    padding: 50px 80px; 
     background-color: #173400;
     display: flex;
-    justify-content: space-between; /* Espaço entre o texto e as redes sociais */
-    align-items: center; /* Alinha o texto e os ícones verticalmente */
+    justify-content: space-between;
+    align-items: center; 
 }
 
 .social {
     margin-left: 50px;
     display: flex;
-    gap: 100px; /* Espaçamento entre os logos das empresas */
+    gap: 100px; 
 }
 
 .texto {
@@ -194,6 +194,6 @@ footer {
 }
 
 .social img {
-    width: 200px; /* Redimensiona os logos */
+    width: 200px; 
     height: auto;
 }
